@@ -22,9 +22,11 @@ La finalidad de hacer este proyecto es simular la creación de un proyecto en eq
     - [ ]  Visualizar la cantidad de ingresos restantes
 - CRUD de ingresos y gastos. Cada vez que se realiza una de estas acciones, se tiene que ver reflejado en la visualización de gastos e ingresos.
     - [ ]  Crear un gasto
+        - [ ] Reemplazar el campo tipo que es una imagen por un elemento Dropdown del tkinter
     - [ ]  Actualizar un gasto seleccionado
     - [ ]  Eliminar un gasto seleccionado
     - [ ]  Mostrar la lista de gastos para poder realizar las acciones mencionadas
+        - [ ] Reemplazar la lista que es una imagen por un elemento Table del tkinter
     - [ ]  Mostrar una vista detallada del gasto al dar seleccionarlo
 - Guardar y cargar la información en un archivo .csv
     - [ ]  La información puede ser almacenada en el momento que el usuario desee
