@@ -9,6 +9,7 @@ La finalidad de hacer este proyecto es simular la creación de un proyecto en eq
 | ----------------- | ------------------- |
 | Keslerth Calderon | @cheesecodestudio   |
 | Erick Duran       | @Ejduran            |
+| Ericka Cordero    | @Ericka-Cordero95   |
 
 # Enlaces interesantes
 
