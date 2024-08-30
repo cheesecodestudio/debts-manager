@@ -3,7 +3,7 @@ Este proyecto es para administrar nuestras deudas en el cual vamos a llevar los 
 
 La finalidad de hacer este proyecto es simular la creación de un proyecto en equipo, utilizando github y algunas de sus facilidades.
 
-# Colaboradores
+## Colaboradores
 
 | Nombre            | Username            |
 | ----------------- | ------------------- |
@@ -11,11 +11,11 @@ La finalidad de hacer este proyecto es simular la creación de un proyecto en eq
 | Erick Duran       | @Ejduran            |
 | Ericka Cordero    | @Ericka-Cordero95   |
 
-# Enlaces interesantes
+## Enlaces interesantes
 
 * [Hoja de trucos Git+Github](https://midu.link/gitpdf)
 
-# Lista de cosas por hacer
+## Lista de cosas por hacer
 
 - [ ] Visualizar Ingresos https://github.com/cheesecodestudio/debts-manager/issues/10
 - [ ] Visualizar Gastos https://github.com/cheesecodestudio/debts-manager/issues/12
