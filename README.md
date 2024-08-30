@@ -17,24 +17,15 @@ La finalidad de hacer este proyecto es simular la creación de un proyecto en eq
 
 # Lista de cosas por hacer
 
-- Visualizar los gastos e ingresos.
-    - [ ]  Visualizar los ingresos agregados
-    - [ ]  Visualizar los gastos por categoría
-    - [ ]  Visualizar la cantidad de ingresos restantes
-- CRUD de ingresos y gastos. Cada vez que se realiza una de estas acciones, se tiene que ver reflejado en la visualización de gastos e ingresos.
-    - [ ]  Crear un gasto
-        - [ ] Reemplazar el campo tipo que es una imagen por un elemento Dropdown del tkinter
-    - [ ]  Actualizar un gasto seleccionado
-    - [ ]  Eliminar un gasto seleccionado
-    - [ ]  Mostrar la lista de gastos para poder realizar las acciones mencionadas
-        - [ ] Reemplazar la lista que es una imagen por un elemento Table del tkinter
-    - [ ]  Mostrar una vista detallada del gasto al dar seleccionarlo
-- Guardar y cargar la información en un archivo .csv
-    - [ ]  La información puede ser almacenada en el momento que el usuario desee
-    - [ ]  Crear la opción de autoguardado, es decir, cuando se realice alguna acción de ingreso o gasto, este guarde automaticamente el en archivo .csv
-    - [ ]  Cargar la información del archivo .csv al momento de abrir la aplicación
-- Generar un reporte mensual.
-    - [ ]  Crear un archivo .pdf en el que se pueda visualizar todos los movimientos que hubieron en un mes espeficificado por el usuario.
-- Limpiar la infomación
-    - [ ]  Una acción que proceda a limpiar la aplicación de toda la información que tiene cargada.
-    - [ ]  Además, deberá preguntar al usuario si desea eliminar la información del archivo .csv
+- [ ] Visualizar Ingresos https://github.com/cheesecodestudio/debts-manager/issues/10
+- [ ] Visualizar Gastos https://github.com/cheesecodestudio/debts-manager/issues/12
+- [ ] Crear un gasto https://github.com/cheesecodestudio/debts-manager/issues/10
+- [ ] Reemplazar el campo tipo que es una imagen por un elemento Dropdown del tkinter https://github.com/cheesecodestudio/debts-manager/issues/13
+- [ ] Actualizar un movimiento seleccionado https://github.com/cheesecodestudio/debts-manager/issues/13
+- [ ] Eliminar un gasto seleccionado https://github.com/cheesecodestudio/debts-manager/issues/15
+- [ ] Reemplazar la lista que es una imagen por un elemento Table del tkinter  https://github.com/cheesecodestudio/debts-manager/issues/16
+- [ ] La información puede ser almacenada en el momento que el usuario desee https://github.com/cheesecodestudio/debts-manager/issues/17
+- [ ] Crear la opción de autoguardado, es decir, cuando se realice alguna acción de ingreso o gasto, este guarde automaticamente el en archivo .csv https://github.com/cheesecodestudio/debts-manager/issues/17
+- [ ] Cargar la información del archivo .csv al momento de abrir la aplicación https://github.com/cheesecodestudio/debts-manager/issues/18
+- [ ] Una acción que proceda a limpiar la aplicación de toda la información que tiene cargada. Además, deberá preguntar al usuario si desea eliminar la información del archivo .csv https://github.com/cheesecodestudio/debts-manager/issues/19
+- [ ] Crear un archivo .pdf en el que se pueda visualizar todos los movimientos que hubieron en un mes espeficificado por el usuario. https://github.com/cheesecodestudio/debts-manager/issues/20
