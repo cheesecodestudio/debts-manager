@@ -10,7 +10,14 @@ from pathlib import Path
 from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage
 import os
 
-import models.NewClass
+class Dinero:
+    def __init__(self,pIngresos,pGastos,pRestante,pMovimientos):
+        self.ingresos=pIngresos
+        self.gastos=pGastos
+        self.restante=pRestante
+        self.movimientos=pMovimientos
+        
+        
 
 OUTPUT_PATH = Path(__file__).parent
 ASSETS_PATH = OUTPUT_PATH / Path(r".\\assets\\imgs")
@@ -19,12 +26,11 @@ ASSETS_PATH = OUTPUT_PATH / Path(r".\\assets\\imgs")
 def relative_to_assets(path: str) -> Path:
     return ASSETS_PATH / Path(path)
 
-
 window = Tk()
 
 window.geometry("620x468")
 window.configure(bg = "#FFFFFF")
-window.title("Administrando mi dinero")
+window.title("Administración de finanzas")
 
 canvas = Canvas(
     window,
@@ -56,7 +62,7 @@ canvas.create_text(
     font=("RocknRollOne Regular", 14 * -1)
 )
 
-incomes_text = canvas.create_text(
+canvas.create_text(
     25.0,
     39.0,
     anchor="nw",
@@ -74,7 +80,7 @@ rect_red = canvas.create_image(
     image=image_rect_red
 )
 
-expenses_text = canvas.create_text(
+canvas.create_text(
     187.0,
     39.0,
     anchor="nw",
@@ -101,7 +107,7 @@ rect_blue = canvas.create_image(
     image=image_rect_blue
 )
 
-balance_text = canvas.create_text(
+canvas.create_text(
     25.0,
     99.0,
     anchor="nw",
