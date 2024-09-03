@@ -9,8 +9,10 @@ from pathlib import Path
 # Explicit imports to satisfy Flake8
 from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage
 import os
-import models.NewClass as Dinero
-    
+from models.Money import *
+
+money=Money(0,0,0,[])
+
 OUTPUT_PATH = Path(__file__).parent
 ASSETS_PATH = OUTPUT_PATH / Path(r".\\assets\\imgs")
 
