@@ -24,7 +24,7 @@ window = Tk()
 
 window.geometry("620x468")
 window.configure(bg = "#FFFFFF")
-window.title("Administrando mis finanzas")
+window.title("Administrando mi dinero")
 
 canvas = Canvas(
     window,
