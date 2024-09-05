@@ -9,8 +9,9 @@ from pathlib import Path
 # Explicit imports to satisfy Flake8
 from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage
 import os
+from models.Money import *
 
-import models.NewClass
+money=Money(0,0,0,[])
 
 OUTPUT_PATH = Path(__file__).parent
 ASSETS_PATH = OUTPUT_PATH / Path(r".\\assets\\imgs")
@@ -19,12 +20,11 @@ ASSETS_PATH = OUTPUT_PATH / Path(r".\\assets\\imgs")
 def relative_to_assets(path: str) -> Path:
     return ASSETS_PATH / Path(path)
 
-
 window = Tk()
 
 window.geometry("620x468")
 window.configure(bg = "#FFFFFF")
-window.title("Administrando mi dinero")
+window.title("Administración de finanzas")
 
 canvas = Canvas(
     window,
