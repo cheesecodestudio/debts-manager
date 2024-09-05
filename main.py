@@ -56,7 +56,7 @@ canvas.create_text(
     font=("RocknRollOne Regular", 14 * -1)
 )
 
-canvas.create_text(
+incomes_text = canvas.create_text(
     25.0,
     39.0,
     anchor="nw",
@@ -74,7 +74,7 @@ rect_red = canvas.create_image(
     image=image_rect_red
 )
 
-canvas.create_text(
+expenses_text = canvas.create_text(
     187.0,
     39.0,
     anchor="nw",
@@ -101,7 +101,7 @@ rect_blue = canvas.create_image(
     image=image_rect_blue
 )
 
-canvas.create_text(
+balance_text = canvas.create_text(
     25.0,
     99.0,
     anchor="nw",
